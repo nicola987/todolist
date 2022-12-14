@@ -12,8 +12,9 @@ function App() {
       <p>Login: {login}</p>
 
       <input
-      placeholder="Please write your password..."
-      onChange={(e) => setPassword(e.target.value)}
+        type="password"
+        placeholder="Please write your password..."
+        onChange={(e) => setPassword(e.target.value)}
       />
       <p>Password: {password}</p>
     </div>
