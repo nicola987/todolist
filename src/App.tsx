@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { StyledInput, StyledField, StyledPassInput, StyledPassField,StyledNameField, StyledNameInput } from "./App.styled";
 
 function App() {
   const [login, setLogin] = useState("");
@@ -6,25 +7,26 @@ function App() {
   const [name, setName] = useState("");
   return (
     <div style={{ margin: "50px" }}>
-      <input
+
+
+      <StyledInput
         placeholder="Please write your login..."
         onChange={(e) => setLogin(e.target.value)}
       />
-      <p>Login: {login}</p>
+      <StyledField>Login: {login}</StyledField>
 
-      <input
-        type="password"
+      <StyledPassInput
         placeholder="Please write your password..."
         onChange={(e) => setPassword(e.target.value)}
       />
-      <p>Password: {password}</p>
+      <StyledPassField>Password: {password}</StyledPassField>
 
-      <input
+      <StyledNameInput
         type="name"
         placeholder="Please write your name..."
         onChange={(e) => setName(e.target.value)}
       />
-      <p>Name: {name}</p>
+      <StyledNameField>Name: {name}</StyledNameField>
     </div>
   );
 }
