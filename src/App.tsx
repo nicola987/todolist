@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 function App() {
   const [login, setLogin] = useState("");
-  const [password, setPassword] = useState("")
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
   return (
     <div style={{ margin: "50px" }}>
       <input
@@ -17,6 +18,13 @@ function App() {
         onChange={(e) => setPassword(e.target.value)}
       />
       <p>Password: {password}</p>
+
+      <input
+        type="name"
+        placeholder="Please write your name..."
+        onChange={(e) => setName(e.target.value)}
+      />
+      <p>Name: {name}</p>
     </div>
   );
 }
