@@ -45,3 +45,10 @@ export const StyledNameInput = styled.input`
 export const StyledNameField = styled.div`
   color: #495057;
 `;
+
+export const AccordionsWrapper = styled.div`
+  display: grid;
+  width: 1080px;
+  margin: 50px auto;
+  grid-gap: 12px;
+`;

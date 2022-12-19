@@ -10,7 +10,7 @@ import {
   ButtonShop,
   StyledH2,
 } from "./Page.styled";
-import image from "./istockphoto-1434101471-612x612.jpg";
+import image from "../../assets/istockphoto-1434101471-612x612.jpg";
 
 function Page() {
   return (

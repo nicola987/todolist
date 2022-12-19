@@ -7,7 +7,7 @@ import {
   StyledNameField,
   StyledNameInput,
   Wrapper,
-} from "./App.styled";
+} from "../../App.styled";
 
 function Login() {
   const [login, setLogin] = useState("");
