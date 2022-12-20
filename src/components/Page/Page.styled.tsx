@@ -46,6 +46,7 @@ export const ButtonShop = styled.div`
   border-style: none;
   padding: 10px;
   text-align: center;
+  width: fit-content;
 `;
 
 export const StyledH2 = styled.h2`
